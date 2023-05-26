@@ -34,9 +34,7 @@
         <img src = "Imagens/massagem.jpg" alt = "massagista" id = "massagem">
         </div>
 
-        <article>
-            <a href="teste.php"><img src="Imagens/flutu.jpeg"></a>
-            </article>
+    
 
         <div class = "servicos">
 
