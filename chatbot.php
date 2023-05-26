@@ -127,12 +127,12 @@ function bala($opc){
     <title>Document</title>
     <link href = "index.css" rel = "stylesheet">
 </head>
-<body>
-<header>
+<body class="body">
+<header class="header">
         <h1 class = "logo">Singu</h1>
-        <nav>
-            <ul class = "menu2">
-                <li><a href="index.php">Voltar ao site</a></li>
+        <nav class="nav">
+            <ul id = "menu2">
+                <li class="li"><a class="a" href="index.php">Voltar ao site</a></li>
             </ul>
         </nav>
     </header>
