@@ -333,16 +333,8 @@ a{
     font-family: "Bodoni";
     src: url('Fontes/BodoniflfBold-MVZx.ttf');
 }
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;	
-    list-style: none;
-    margin-top: 4px;
-    
-}
 
-body{
+.body{
     background-color: whitesmoke;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 90px;
@@ -360,7 +352,7 @@ body{
 h1.logo{
     font-family: Bodoni, serif;
 }
-header{
+.header{
     display: flex;
     height: 18vh;
     background-color: white;
@@ -372,7 +364,7 @@ header{
     width: 100%;
 
 }
-nav{
+.nav{
     display:flex;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -382,7 +374,7 @@ nav{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
-ul{
+.ul{
     display:flex;
     height: 2vh;
     justify-content: center;
@@ -392,15 +384,15 @@ ul{
     font-size: 1.1rem;
 }
 
-.menu2{
+#menu2{
     background-color: #247BA0;
     margin-left: 80vh;
 
 }
-li{
+.li{
     padding: 40px;
 }
-a{
+.a{
     text-decoration: none;
     color: white;
 }
@@ -427,7 +419,6 @@ a{
 .container{
     display:grid;
 }
-
 
 
 
