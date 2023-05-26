@@ -75,7 +75,29 @@
             <div class = "listaservicos">
 
                 <!--parte de manu-->
+                <div class="servicos-capa">
                 
+                    <?php
+                        foreach($servicos as $i => $serv){
+                    ?>
+            
+                    <div class="item-servicos">
+                        <a href="servicos-detalhe.php?i=<?=$i?>">
+                            <img src="<?=$serv['foto']?> " alt="<?=$serv['nome']?>" class = "imgservic">
+                            
+                        </a>
+                    <h3>
+                        <a href="servicos-detalhe.php?i=<?=$i?>">
+                            <?=$serv["nome"]?>
+                        </a>
+                    </h3>
+                        
+                    </div>
+            
+                    <?php  } ?>
+                        
+                    
+                </div>
                 <!--fim parte de manu-->
             </div>
         </div>
