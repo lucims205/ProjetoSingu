@@ -45,7 +45,9 @@
             </div>
 
             <div class = "func">
-                
+                <h3>
+                    <a href="chat-bot.php"><img src="imagens/flutu.png"></a>
+                </h3>
                 <div class = "funcionamento">  
                     <a href = "https://play.google.com/store/apps/details?id=br.com.singu&hl=pt_BR&gl=US" target = "blank"> 
                     <img src = "Imagens/playstore.png" alt="playstore" class = "outros"> 
